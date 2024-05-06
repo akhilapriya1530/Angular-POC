@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-sm bg-info navbar-dark">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <img src="../../assets/logo.png" width="100px" height="45px">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">Local Forecast</a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link text-white" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">Contacts</a>
+      </li> -->
+    </ul>
+  </div>
+</nav>
+<div class="widget mt-4">
+
+  <h3 class="widget__title">Weather</h3>
+
+  <div class="widget__select-wrapper">
+
+    <select [(ngModel)]="selectedCity" class="widget__select">
+      <option [ngValue]="null">Select city...</option>
+      <option *ngFor="let city of cities" [ngValue]="city">
+        {{city.name}}
+      </option>
+    </select>
+
+
+    <button (click)="update()" class="widget__submit">Update</button>
+
+  </div>
+
+  <app-city-weather [city]="updatedCity"></app-city-weather>
+
+</div>

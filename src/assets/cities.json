@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "name": "Delhi",
+      "country": "IN",
+      "coord": {
+        "lon": 28.679079,
+        "lat": 77.06971
+      }
+    },
+    {
+      "id": 2,
+      "name": "Mumbai",
+      "country": "IN",
+      "coord": {
+        "lon": 19.07609,
+        "lat": 72.877426
+      }
+    },
+    {
+      "id": 3,
+      "name": "Hyderabad",
+      "country": "IN",
+      "coord": {
+        "lon": 17.437462,
+        "lat": 78.448288
+      }
+    },
+    {
+      "id": 4,
+      "name": "Bengaluru",
+      "country": "IN",
+      "coord": {
+        "lon": 12.971599,
+        "lat": 77.594566
+      }
+    },
+    {
+      "id": 5,
+      "name": "Chennai",
+      "country": "IN",
+      "coord": {
+        "lon": 13.067439,
+        "lat": 80.237617
+      }
+    },
+    {
+      "id": 6,
+      "name": "Miryalguda",
+      "country": "IN",
+      "coord": {
+        "lon": 13.067439,
+        "lat": 80.237617
+      }
+    }
+  ]
+  
